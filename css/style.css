@@ -470,15 +470,6 @@ ul.main-nav.show-it {
 
 
 
-@media (max-width: 720px){
-  img {
-    max-width: 100%;  /* Stellen Sie sicher, dass das Bild innerhalb des Containers bleibt */
-    display: block;  /* Zentriert das Bild */
-    margin: auto;  /* Zentriert das Bild */
-  }
-}
-
-
 
 
 
@@ -491,14 +482,12 @@ ul.main-nav.show-it {
   }
 
   header.hero {
-    background: url(../assets/hero-bg.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: url(../assets/hero-bg.png) no-repeat center center / cover fixed;
     color: #fff;
     padding-bottom: 80px;
   }
+
+
 
   header.hero h1 {
     font-family: 'Montserrat', sans-serif;
