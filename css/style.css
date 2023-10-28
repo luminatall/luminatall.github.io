@@ -78,11 +78,23 @@ header.hero h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4.5em;
   font-weight: 600;
-  line-height: 1.4em;
+  line-height: 1.4em;    
+  background-color: rgba(0, 0, 0, 0.6);  /* Black background with 50% opacity */
+  padding: 10px;  /* Adding some space around the text */
+  border-radius: 5px;
+  color: white;
+  width: 100%;
 }
 header.hero h1 span,
 header.hero h3 {
   font-weight: 300;
+}
+header.hero h3 {
+  background-color: rgba(0, 0, 0, 0.7);  /* Black background with 50% opacity */
+  padding: 10px;  /* Adding some space around the text */
+  padding-right: 50px;
+  border-radius: 5px;
+  color: white;
 }
 header.hero .btn {
   margin: 3em 0;
@@ -470,12 +482,25 @@ ul.main-nav.show-it {
     padding: .8em 3em;
     font-size: .8em;
   }
+
+  header.hero h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5em;
+    font-weight: 600;
+    line-height: 1.4em;    
+    background-color: rgba(0, 0, 0, 0.6);  /* Black background with 50% opacity */
+    padding: 10px;  /* Adding some space around the text */
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+  }
+
   h1.heading {
     font-size: 2em;
   }
   header.hero {
-    text-align: center;
-    padding-bottom: 0;
+    background-size: auto 100%;  /* oder verwenden Sie 'cover' oder 'contain' */
+    background-position: center;  /* Zentrieren Sie das Hintergrundbild */
   }
   header.hero h1 {
     font-size: 2em;
@@ -544,9 +569,3 @@ ul.main-nav.show-it {
     padding: 1em 0em;
   }
 }
-
-
-
-
-
-
