@@ -1,5 +1,5 @@
 /*!
- * Author: Akash Bhadange
+ * Author: Jashari Besart
  */
 
  body {
@@ -470,6 +470,13 @@ ul.main-nav.show-it {
 
 
 
+@media (max-width: 720px){
+  img {
+    max-width: 100%;  /* Stellen Sie sicher, dass das Bild innerhalb des Containers bleibt */
+    display: block;  /* Zentriert das Bild */
+    margin: auto;  /* Zentriert das Bild */
+  }
+}
 
 
 
