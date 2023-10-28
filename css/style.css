@@ -537,7 +537,7 @@ ul.main-nav.show-it {
   }
   header.hero {
     background-size: auto 50%;  /* oder verwenden Sie 'cover' oder 'contain' */
-    background-position: center;  /* Zentrieren Sie das Hintergrundbild */
+    background-position: top;  /* Zentrieren Sie das Hintergrundbild */
   }
   header.hero h1 {
     font-size: 2em;
