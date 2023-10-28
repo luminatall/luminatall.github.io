@@ -524,7 +524,7 @@ ul.main-nav.show-it {
 
 
   header.hero {
-    background-size: 250%;  /* oder verwenden Sie 'cover' oder 'contain' */
+    background-size: 280%;  /* oder verwenden Sie 'cover' oder 'contain' */
     background-position: top;  /* Zentrieren Sie das Hintergrundbild */
   }
 
