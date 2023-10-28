@@ -54,6 +54,22 @@ header.hero {
   padding-bottom: 80px;
 }
 
+/* Logo Section */
+body::before {
+  content: "";
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 30px;
+  top: 10;
+  right: 10;
+  width: 200px;
+  height: 200px;
+  background-image: url('../assets/logo.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 9999;
+}
+
 header.hero .hero-text {
   margin-top: 20%;
   color: #333;
@@ -464,14 +480,14 @@ ul.main-nav.show-it {
 }
 
 
-
+/*
 @media screen and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 0) {
   header.hero {
-    background-attachment: scroll;  /* oder 'local' */
+    background-attachment: scroll;  
   }
 
 }
-
+*/
 
 
 
@@ -503,24 +519,24 @@ ul.main-nav.show-it {
         right: 0; }
 
 
-/*
+
   header.hero h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 4.5em;
     font-weight: 600;
     line-height: 1.4em;    
     background-color: rgba(0, 0, 0, 0.6);  
-    padding: 10px;  
+    padding: 10px; 
     border-radius: 5px;
     color: white;
     width: 100%;
-  }*/
+  }
 
   h1.heading {
     font-size: 2em;
   }
   header.hero {
-    background-size: auto 100%;  /* oder verwenden Sie 'cover' oder 'contain' */
+    background-size: auto 50%;  /* oder verwenden Sie 'cover' oder 'contain' */
     background-position: center;  /* Zentrieren Sie das Hintergrundbild */
   }
   header.hero h1 {
