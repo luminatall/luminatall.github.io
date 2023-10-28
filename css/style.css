@@ -259,7 +259,7 @@ h1.heading.pink:after {
   background-color: #ffbe61;
 }
 .testimonial-box.purple {
-  background-color: #7b32d5;
+  background-color: #222;
 }
 .testimonial-box.blue {
   background-color: #37a7ff;
@@ -465,9 +465,12 @@ ul.main-nav.show-it {
 
 
 
+@media screen and (max-device-width: 720px) and (-webkit-min-device-pixel-ratio: 0) {
+  header.hero {
+    background-attachment: scroll;  /* oder 'local' */
+  }
 
-
-
+}
 
 
 
@@ -480,6 +483,8 @@ ul.main-nav.show-it {
     padding: .8em 3em;
     font-size: .8em;
   }
+
+  
 
   header.hero {
     background: url(../assets/hero-bg.png) no-repeat center center / cover fixed;
