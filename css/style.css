@@ -478,13 +478,6 @@ ul.main-nav.show-it {
 
 /* Let's optimise it for mobile devices */
 
-@media (max-width: 720px){
-  .btn-lg {
-    padding: .8em 3em;
-    font-size: .8em;
-  }
-
-  
 
   header.hero {
     background: url(../assets/hero-bg.png) no-repeat center center / cover fixed;
@@ -493,18 +486,35 @@ ul.main-nav.show-it {
   }
 
 
+  @media screen and (min-width: 768px) {
+    .image-container.image-right {
+      top: 80px;
+      margin-left: -100px;
+      margin-bottom: 130px; }
+    .image-container.image-left {
+      margin-right: -100px; } }
+  
+  @media screen and (max-width: 768px) {
+    .image-container.image-left {
+      margin-bottom: 220px; }
+      .image-container.image-left p.blockquote {
+        margin: 0 auto;
+        position: relative;
+        right: 0; }
 
+
+/*
   header.hero h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 4.5em;
     font-weight: 600;
     line-height: 1.4em;    
-    background-color: rgba(0, 0, 0, 0.6);  /* Black background with 50% opacity */
-    padding: 10px;  /* Adding some space around the text */
+    background-color: rgba(0, 0, 0, 0.6);  
+    padding: 10px;  
     border-radius: 5px;
     color: white;
     width: 100%;
-  }
+  }*/
 
   h1.heading {
     font-size: 2em;
