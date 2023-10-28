@@ -522,9 +522,9 @@ ul.main-nav.show-it {
   }
 
 
-  
-  .ios-device header.hero {
-    background-size: auto 20%;  /* oder verwenden Sie 'cover' oder 'contain' */
+
+  header.hero {
+    background-size: 100%;  /* oder verwenden Sie 'cover' oder 'contain' */
     background-position: top;  /* Zentrieren Sie das Hintergrundbild */
   }
 
