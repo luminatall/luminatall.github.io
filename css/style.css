@@ -495,34 +495,18 @@ ul.main-nav.show-it {
 /* Let's optimise it for mobile devices */
 
 
-  header.hero {
-    background: url(../assets/hero-bg.png) no-repeat center center / cover fixed;
-    color: #fff;
-    padding-bottom: 80px;
-  }
-
-
-  @media screen and (min-width: 768px) {
-    .image-container.image-right {
-      top: 80px;
-      margin-left: -100px;
-      margin-bottom: 130px; }
-    .image-container.image-left {
-      margin-right: -100px; } }
   
-  @media screen and (max-width: 768px) {
-    .image-container.image-left {
-      margin-bottom: 220px; }
-      .image-container.image-left p.blockquote {
-        margin: 0 auto;
-        position: relative;
-        right: 0; }
 
+@media (max-width: 720px){
+  .btn-lg {
+    padding: .8em 3em;
+    font-size: .8em;
+  }
 
 
   header.hero h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 4.5em;
+    font-size: 2em;
     font-weight: 600;
     line-height: 1.4em;    
     background-color: rgba(0, 0, 0, 0.6);  
@@ -530,19 +514,20 @@ ul.main-nav.show-it {
     border-radius: 5px;
     color: white;
     width: 100%;
+    margin-top: 100px;
   }
 
   h1.heading {
     font-size: 2em;
   }
-  header.hero {
+
+
+  
+  .ios-device header.hero {
     background-size: auto 20%;  /* oder verwenden Sie 'cover' oder 'contain' */
     background-position: top;  /* Zentrieren Sie das Hintergrundbild */
   }
-  header.hero h1 {
-    font-size: 2em;
-    margin-top: 1.5em;
-  }
+
   header.hero h3 {
     font-size: 1.2em;
     line-height: 1.6em;
