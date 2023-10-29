@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /anwendungsbereich
+Allow: /erfahrung
+Allow: /kontakt
