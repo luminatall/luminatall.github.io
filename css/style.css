@@ -200,14 +200,14 @@ h1.heading.pink:after {
   transition: all 0.2s;
 }
 .client-box .client-logo {
-  max-height: 120px;
+  max-height: 250px;
 }
 .client-box h3.title {
   color: #4e4c58;
   margin-bottom: 2em;
 }
 .client-box p.tag {
-  color: #7447ae;
+  color: #596e83;
   font-family: 'Montserrat', sans-serif;
   margin-bottom: 1em;
 }
@@ -309,7 +309,7 @@ h1.heading.pink:after {
 
 /* Contact Banner */
 .contact-banner {
-  background: url(../assets/bg-pat.png) #664fee repeat;
+  background: url(../assets/bg-pat.png) #376e9f repeat;
   color: #fff;
   padding: 6em;
 }
@@ -334,6 +334,9 @@ h1.heading.pink:after {
   color: #a3a1ac;
   margin-bottom: 2em;
 }
+.footer h3 {
+  color: whitesmoke;
+}
 .footer h1 span {
   color: #fff;
   font-weight: 300;
@@ -348,6 +351,7 @@ h1.heading.pink:after {
   left: 50%;
   transform: translate(-40px, 10px);
 }
+
 .footer ul.social-links li a {
   padding-left: 12px;
   padding-right: 12px;
@@ -503,7 +507,14 @@ ul.main-nav.show-it {
     font-size: .8em;
   }
 
+  /* Logo Position*/
+  body::before {
+    content: "";
+    position: absolute;
+    margin-top: 85px;
+  }
 
+  /*tittel Position*/
   header.hero h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2em;
@@ -514,7 +525,7 @@ ul.main-nav.show-it {
     border-radius: 5px;
     color: white;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 155px;
   }
 
   h1.heading {
@@ -522,7 +533,7 @@ ul.main-nav.show-it {
   }
 
 
-
+/*Hintergrundbild Grosse mobile*/
   header.hero {
     background-size: 280%;  /* oder verwenden Sie 'cover' oder 'contain' */
     background-position: top;  /* Zentrieren Sie das Hintergrundbild */
