@@ -136,7 +136,7 @@ ul.social-links li a img {
 }
 
 
-/* Case study */
+/* arbeitsbeispiele */
 .case-study .col-md-12 {
   transform: translateY(-80px);
   -webkit-transform: translateY(-80px);
@@ -283,6 +283,68 @@ h1.heading.pink:after {
 .testimonial-box.pink {
   background-color: #ff2a75;
 }
+
+
+/* Gallery */
+.arbeiten {
+  width: 85%;
+  margin: 40px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.arbeiten h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #5da5d5;
+  font-size: 3em;
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.image-box {
+  position: relative;
+  overflow: hidden;
+  height: 330px;  /* Erhöhte Höhe für mehr Platz */
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+  filter: grayscale(100%);
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-box:hover .description {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 
 /* Statistics */
@@ -532,6 +594,10 @@ ul.main-nav.show-it {
     font-size: 2em;
   }
 
+  /*Arbeiten*/
+  .gallery {
+    grid-template-columns: 1fr;
+}
 
 /*Hintergrundbild Grosse mobile*/
   header.hero {
