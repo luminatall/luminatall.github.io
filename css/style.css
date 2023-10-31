@@ -535,7 +535,7 @@ ul.main-nav.show-it {
 
 /*Hintergrundbild Grosse mobile*/
   header.hero {
-    background-size: 280%;  /* oder verwenden Sie 'cover' oder 'contain' */
+    background-size: 300%;  /* oder verwenden Sie 'cover' oder 'contain' */
     background-position: top;  /* Zentrieren Sie das Hintergrundbild */
   }
 
