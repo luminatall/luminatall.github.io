@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>http://www.luminstall.com/</loc>
-  <lastmod>2023-10-29T13:41:21+00:00</lastmod>
-</url>
-
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.luminstall.com/</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://www.luminstall.com/assets/hero-bg.png</image:loc></image:image>
+    <image:image><image:loc>https://www.luminstall.com/assets/og-image.jpg</image:loc></image:image>
+    <image:image><image:loc>https://www.luminstall.com/assets/lum1.JPG</image:loc></image:image>
+    <image:image><image:loc>https://www.luminstall.com/assets/lum2.JPG</image:loc></image:image>
+    <image:image><image:loc>https://www.luminstall.com/assets/lum3.JPG</image:loc></image:image>
+    <image:image><image:loc>https://www.luminstall.com/assets/lum4.JPG</image:loc></image:image>
+    <image:image><image:loc>https://www.luminstall.com/assets/lum5.JPG</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://www.luminstall.com/impressum.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.luminstall.com/datenschutz.html</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>
